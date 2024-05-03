@@ -8,7 +8,8 @@ body { font-size: 14pt; }
     src: url("woff2/Taamey_D.woff2");
 }
 span.romanized { font-style: italic; }
-span.jacobson-technical-stressed {
+span.jt-stressed {
+    /* "jt" stands for Jacobson technical [transliteration style] */
     text-transform: uppercase;
     font-weight: bold;
 }
