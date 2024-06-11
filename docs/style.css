@@ -7,8 +7,9 @@ span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stand
 span.yeivin-underline { text-decoration: underline; }
 p { max-width: 40em; text-align: justify}
 blockquote { max-width: 40em; }
-td.big-for-amb-early-mtg { font-size: 250%; letter-spacing: 0.1em; text-align: left;}
+td.big-for-amb-early-mtg { font-size: 250%; letter-spacing: 0.1em; text-align: left; }
 td.big { font-size: 250%; }
+td[rowspan="2"] { vertical-align: middle; }
 table.limited-width { max-width: 40em; }
 table.border-collapse { border-collapse: collapse; }
 th, td { padding-right: 0.4em; padding-left: 0.4em; }
