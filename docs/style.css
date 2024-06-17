@@ -8,6 +8,7 @@ span.yeivin-underline { text-decoration: underline; }
 p { max-width: 40em; text-align: justify}
 li { max-width: 40em; text-align: justify}
 blockquote { max-width: 40em; text-align: justify }
+span.extra-letter-spacing { letter-spacing: 0.1em; }
 td.big-for-amb-early-mtg { font-size: 250%; letter-spacing: 0.1em; text-align: left; }
 td.big { font-size: 250%; }
 td[rowspan="2"] { vertical-align: middle; }
