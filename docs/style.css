@@ -3,10 +3,11 @@ body { font-size: 14pt; }
 @font-face { font-family: "Taamey D WOFF2"; src: url("woff2/Taamey_D.woff2"); }
 span.pre-or-post { color: gray }
 span.romanized { font-style: italic; }
+span.book-title { font-style: italic; }
 span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stands for Jacobson technical [transliteration style] */
 span.yeivin-underline { text-decoration: underline; }
-p { max-width: 40em; text-align: justify}
-li { max-width: 40em; text-align: justify}
+p { max-width: 40em; text-align: justify }
+li { max-width: 40em; text-align: justify }
 blockquote { max-width: 40em; text-align: justify }
 span.extra-letter-spacing { letter-spacing: 0.1em; }
 td.big-for-amb-early-mtg { font-size: 250%; letter-spacing: 0.1em; text-align: left; }
