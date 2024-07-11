@@ -5,7 +5,8 @@ span.pre-or-post { color: gray }
 span.romanized { font-style: italic; }
 span.book-title { font-style: italic; }
 span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stands for Jacobson technical [transliteration style] */
-span.yeivin-underline { text-decoration: underline; }
+span.yeivin-underline-as-emphasis { font-weight: bold; }
+span.yeivin-underline-as-heading { background-color: yellow; }
 p { max-width: 40em; text-align: justify }
 li { max-width: 40em; text-align: justify }
 blockquote { max-width: 40em; text-align: justify }
