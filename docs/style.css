@@ -1,16 +1,17 @@
 body { font-size: 14pt; }
 *[lang="hbo"] { font-family: "Taamey D WOFF2"; font-size: 140%; }
 @font-face { font-family: "Taamey D WOFF2"; src: url("woff2/Taamey_D.woff2"); }
-span.pre-or-post { color: gray }
-span.ghostly-first-part-of-geminate { color: gray }
+span.pre-or-post { color: gray; }
+span.ghostly-first-part-of-geminate { color: gray; }
 span.romanized { font-style: italic; }
 span.book-title { font-style: italic; }
 span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stands for Jacobson technical [transliteration style] */
 span.yeivin-underline-as-emphasis { font-weight: bold; }
 span.yeivin-underline-as-heading { background-color: yellow; }
-p { max-width: 40em; text-align: justify }
-li { max-width: 40em; text-align: justify }
-blockquote { max-width: 40em; text-align: justify }
+span.initialism { text-transform: lowercase; font-variant: small-caps; }
+p { max-width: 40em; text-align: justify; }
+li { max-width: 40em; text-align: justify; }
+blockquote { max-width: 40em; text-align: justify; }
 span.extra-letter-spacing { letter-spacing: 0.1em; }
 td.big-for-amb-early-mtg { font-size: 250%; letter-spacing: 0.1em; text-align: left; }
 td.big { font-size: 250%; }
