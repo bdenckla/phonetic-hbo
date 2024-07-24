@@ -6,8 +6,8 @@ span.ghostly-first-part-of-geminate { color: gray; }
 span.romanized { font-style: italic; }
 span.book-title { font-style: italic; }
 span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stands for Jacobson technical [transliteration style] */
-span.yeivin-underline-as-emphasis { font-weight: bold; }
-span.yeivin-underline-as-heading { background-color: yellow; }
+span.yeivin-pseudo-heading { background-color: yellow; }
+span.highlighted { color: blue }
 abbr.initialism { text-transform: lowercase; font-variant: small-caps; }
 p { max-width: 40em; text-align: justify; }
 li { max-width: 40em; text-align: justify; }
