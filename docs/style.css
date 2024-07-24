@@ -7,7 +7,7 @@ span.romanized { font-style: italic; }
 span.book-title { font-style: italic; }
 span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stands for Jacobson technical [transliteration style] */
 span.yeivin-pseudo-heading { background-color: yellow; }
-span.highlighted { color: blue }
+span.highlighted { background-color: lightblue }
 abbr.initialism { text-transform: lowercase; font-variant: small-caps; }
 p { max-width: 40em; text-align: justify; }
 li { max-width: 40em; text-align: justify; }
