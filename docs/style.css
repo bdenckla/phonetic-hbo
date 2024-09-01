@@ -2,7 +2,8 @@ body { font-size: 14pt; }
 *[lang="hbo"] { font-family: "Taamey D WOFF2"; font-size: 140%; }
 @font-face { font-family: "Taamey D WOFF2"; src: url("woff2/Taamey_D.woff2"); }
 em { font-style: normal; font-weight: bold; }
-span.pre-or-post { color: gray; }
+*.pre-or-post { color: gray; }
+span.invisible-but-takes-space { visibility: hidden; }
 span.ghostly-first-part-of-geminate { color: gray; }
 span.romanized { font-style: italic; }
 span.book-title { font-style: italic; }
