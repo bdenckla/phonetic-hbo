@@ -20,6 +20,7 @@ td.big { font-size: 250%; }
 td[rowspan="2"] { vertical-align: middle; }
 table.limited-width { max-width: 40em; }
 table.border-collapse { border-collapse: collapse; }
+table.center { margin-left: auto; margin-right: auto; }
 th, td { padding-right: 0.4em; padding-left: 0.4em; }
 tr:nth-of-type(odd) td { background-color: #eee; }
 img { max-width: 100%; }
