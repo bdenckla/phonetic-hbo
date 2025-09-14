@@ -1,4 +1,8 @@
-body { font-size: 14pt; }
+html { display: flex; justify-content: center; }
+body {
+    max-width: 40em;
+    font-size: 14pt;
+}
 *[lang="hbo"] { font-family: "Taamey D WOFF2"; font-size: 140%; }
 @font-face { font-family: "Taamey D WOFF2"; src: url("woff2/Taamey_D.woff2"); }
 em { font-style: normal; font-weight: bold; }
@@ -11,14 +15,13 @@ span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stand
 span.yeivin-pseudo-heading { background-color: yellow; }
 span.highlighted { background-color: lightblue }
 abbr.small-caps { text-transform: lowercase; font-variant: small-caps; }
-p { max-width: 40em; text-align: justify; }
-li { max-width: 40em; text-align: justify; }
-blockquote { max-width: 40em; text-align: justify; }
+p { text-align: justify; }
+li { text-align: justify; }
+blockquote { text-align: justify; }
 *.extra-letter-spacing { letter-spacing: 0.1em; } /* span or bdi */
 td.big-for-amb-early-mtg { font-size: 250%; letter-spacing: 0.1em; text-align: left; }
 td.big { font-size: 250%; }
 td[rowspan="2"] { vertical-align: middle; }
-div.limited-width { max-width: 40em; }
 table.border-collapse { border-collapse: collapse; }
 table.center { margin-left: auto; margin-right: auto; }
 th, td { padding-right: 0.4em; padding-left: 0.4em; }
