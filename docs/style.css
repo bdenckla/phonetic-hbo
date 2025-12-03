@@ -8,8 +8,9 @@ body {
 @font-face { font-family: "Taamey D WOFF2"; src: url("woff2/Taamey_D.woff2"); }
 em { font-style: normal; font-weight: bold; }
 *.pre-or-post { color: gray; }
-span.invisible-but-takes-space { visibility: hidden; }
+span.mam-implicit-maqaf { color: gray; }
 span.ghostly-first-part-of-geminate { color: gray; }
+span.invisible-but-takes-space { visibility: hidden; }
 span.romanized { font-style: italic; }
 span.book-title { font-style: italic; }
 span.jt-stressed { text-transform: uppercase; font-weight: bold; } /* "jt" stands for Jacobson technical [transliteration style] */
