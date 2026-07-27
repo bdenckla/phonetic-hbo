@@ -27,6 +27,7 @@ Only two hand-authored text files exist in this repo (LICENSE.md and the
 GitHub Pages workflow), plus this test tree; the sanity floor below is set
 accordingly low.
 """
+
 import subprocess
 import unicodedata
 import unittest
@@ -72,9 +73,7 @@ _BINARY_EXTENSIONS = {
 
 # Generated / non-hand-authored directory prefixes. gh-pages/ is the
 # phonetic-transcription generator's GitHub Pages output.
-_EXCLUDE_DIR_PREFIXES = (
-    "gh-pages/",
-)
+_EXCLUDE_DIR_PREFIXES = ("gh-pages/",)
 
 _EXCLUDE_FILES: frozenset = frozenset()
 
@@ -147,11 +146,7 @@ def _find_decomposed_latin_clusters(text):
     n = len(text)
     while i < n:
         ch = text[i]
-        if (
-            _is_latin_base(ch)
-            and i + 1 < n
-            and unicodedata.combining(text[i + 1]) != 0
-        ):
+        if _is_latin_base(ch) and i + 1 < n and unicodedata.combining(text[i + 1]) != 0:
             j = i + 1
             while (
                 j < n
@@ -284,7 +279,9 @@ class TestHDotBelowNfc(unittest.TestCase):
 
     def test_comment_detector_flags_decomposed_and_precomposed_h_dot_below(self):
         self.assertTrue(
-            self._comment_has_h_dot_below("# guttural / h" + _COMBINING_DOT_BELOW + " slot")
+            self._comment_has_h_dot_below(
+                "# guttural / h" + _COMBINING_DOT_BELOW + " slot"
+            )
         )
         self.assertTrue(
             self._comment_has_h_dot_below("# guttural / " + _H_WITH_DOT_BELOW + " slot")
@@ -301,10 +298,14 @@ class TestHDotBelowNfc(unittest.TestCase):
         # "Sere", "t" in "qetannah"); that is a different character
         # combination and must NOT be flagged by this check.
         self.assertFalse(
-            self._comment_has_h_dot_below("# Closed, S" + _COMBINING_DOT_BELOW + "ere-vowelled")
+            self._comment_has_h_dot_below(
+                "# Closed, S" + _COMBINING_DOT_BELOW + "ere-vowelled"
+            )
         )
         self.assertFalse(
-            self._comment_has_h_dot_below("# shalshelet qet" + _COMBINING_DOT_BELOW + "annah")
+            self._comment_has_h_dot_below(
+                "# shalshelet qet" + _COMBINING_DOT_BELOW + "annah"
+            )
         )
 
 
