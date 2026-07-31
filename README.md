@@ -8,6 +8,6 @@ Apart from `py/tests`, this repository contains no code. The content of `gh-page
 
 The issue tracker of this repository is the home for issues about the phonetic version of MAM.
 
-One more related repository exists: yeivin-itm, which holds sources and tooling related to the ITM adaptation. It is kept private for copyright reasons. Among other things, it tracks which sections of the adaptation are faithful renderings and which are liberally adapted.
+One more related repository exists: masorah-books (named yeivin-itm until 2026-07-31), which holds sources and tooling related to the ITM adaptation. It is kept private for copyright reasons. Among other things, it tracks which sections of the adaptation are faithful renderings and which are liberally adapted.
 
 See `LICENSE.md` for the licence and attribution information that applies to the MAM data.
