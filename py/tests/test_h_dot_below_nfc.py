@@ -15,16 +15,14 @@ no such ambiguity: composing "h"/"H" + U+0323 to U+1E25/U+1E24 is a simple,
 unambiguous Latin-script composition.
 
 Scope for THIS repo (phonetic-hbo):
-  - gh-pages/ is entirely GENERATED phonetic-transcription output
-    (per-chapter Bible HTML, testsuite HTML, CSS/font/image assets). It is
-    full of het by design and is NOT hand-authored; its het self-corrects
-    when the upstream generator (out of scope for this repo) emits NFC. It
-    is excluded from this guard, both as a directory and via its binary
-    assets.
+  - gh-pages/ holds GENERATED legacy-URL redirects plus the unchanged
+    stylesheet, font and five image assets. The redirect generator is in
+    MAM-basics, outside this repo. This directory remains excluded from the
+    hand-authored guard; the binary assets are also excluded by extension.
   - binary files (by extension) are excluded.
 
-Only two hand-authored text files exist in this repo (LICENSE.md and the
-GitHub Pages workflow), plus this test tree; the sanity floor below is set
+README.md, LICENSE.md and the GitHub Pages workflow are hand-authored text,
+alongside this test tree; the sanity floor below remains set
 accordingly low.
 """
 
@@ -71,8 +69,8 @@ _BINARY_EXTENSIONS = {
     ".dll",
 }
 
-# Generated / non-hand-authored directory prefixes. gh-pages/ is the
-# phonetic-transcription generator's GitHub Pages output.
+# Generated / non-hand-authored directory prefixes. gh-pages/ holds the
+# generated redirects and unchanged legacy static assets.
 _EXCLUDE_DIR_PREFIXES = ("gh-pages/",)
 
 _EXCLUDE_FILES: frozenset = frozenset()
